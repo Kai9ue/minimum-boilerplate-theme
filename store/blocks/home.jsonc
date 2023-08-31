@@ -1,15 +1,28 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "info-card#button-left"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "*Shop Kaique Dev!*",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Cromado brilhante",
+      "subhead": "Dê à sua cozinha um estilo diferenciado com esse acabamento metálico.<br>Disponível até dezembro de 2023.",
+      "callToActionMode": "link",
+      "callToActionText": "Vá para a coleção",
+      "textAlignment": "center"
     }
   }
 }
