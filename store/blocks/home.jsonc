@@ -2,27 +2,41 @@
   "store.home": { 
     "blocks": [
       "rich-text",
+      "info-card",
       "info-card#button-left"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "*Shop Kaique Dev!*",
+      "text": "*Shop Kaique Dev* 💰",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
     }
   },
-  "info-card#button-left": {
+  "info-card": {
     "props": {
       "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-      "headline": "Cromado brilhante",
-      "subhead": "Dê à sua cozinha um estilo diferenciado com esse acabamento metálico.<br>Disponível até dezembro de 2023.",
-      "callToActionMode": "link",
-      "callToActionText": "Vá para a coleção",
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Rosa Vintage",
+      "subhead": "Presenteie a sua cozinha com este lindo design vintage rosê.<br>Disponível até dezembro de 2023.",
+      "callToActionMode": "button",
+      "callToActionText": "Explorar",
+      "callToActionUrl": "/sale/d",
       "textAlignment": "center"
+    }
+  },
+    "info-card#button-left": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+        "headline": "Cromado brilhante",
+        "subhead": "Dê à sua cozinha um estilo diferenciado com esse acabamento metálico.<br>Disponível até dezembro de 2023.",
+        "callToActionMode": "link",
+        "callToActionText": "Vá para a coleção",
+        "textAlignment": "center"
     }
   }
 }
