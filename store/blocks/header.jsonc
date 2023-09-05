@@ -3,7 +3,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop", "header-layout.mobile", "logo"]
   },
   "header-layout.desktop": {
     "children": [
@@ -46,9 +46,9 @@
   },
   "logo": {
     "props": {
-      "title": "Logo",
+      "title": "Shop Coringão",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": "https://logodetimes.com/wp-content/uploads/corinthians.png",
       "width": "80"
     }
   },

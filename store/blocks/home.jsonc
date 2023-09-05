@@ -1,28 +1,19 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
       "info-card",
       "info-card#button-left"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "*Shop Kaique Dev* 💰",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   },
   "info-card": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-      "headline": "Rosa Vintage",
-      "subhead": "Presenteie a sua cozinha com este lindo design vintage rosê.<br>Disponível até dezembro de 2023.",
+      "imageUrl": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt97123af140b17448/643881d54fcf246bb79c0f19/SCCPxNike_Twin_16x9.jpg?auto=webp&format=pjpg&width=640&quality=60",
+      "headline": "Temporada 2023!",
+      "subhead": "Garanta já a sua camiseta oficial desta temporada!.<br>Disponível até janeiro de 2024.",
       "callToActionMode": "button",
-      "callToActionText": "Explorar",
+      "callToActionText": "Ir",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
@@ -31,11 +22,13 @@
       "props": {
         "isFullModeStyle": false,
         "textPosition": "left",
-        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-        "headline": "Cromado brilhante",
-        "subhead": "Dê à sua cozinha um estilo diferenciado com esse acabamento metálico.<br>Disponível até dezembro de 2023.",
+        "imageUrl": "https://static.corinthians.com.br/img/camarotes/ingressos-img.png",
+        "headline": "Visite a arena",
+        "subhead": "Ingressos disponíveis para o próximo jogo.<br>Não perca a oportunidade de torcermos juntos!.",
         "callToActionMode": "link",
-        "callToActionText": "Vá para a coleção",
+        "callToActionText": "Vá para a compra de ingressos",
+        "callToActionUrl": "https://www.ingressoscorinthians.com.br/",
+        "callToActionLinkTarget": "_blank",
         "textAlignment": "center"
     }
   }
